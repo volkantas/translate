@@ -5,39 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Easily redirect to Google Translate using Translate.new. Access quick and efficient translations in any language directly from this domain.">
-    <meta name="keywords" content="Google Translate, Translate.new, language translation, free translation, quick translations, multilingual tools">
-    <meta name="author" content="Translate.new">
+    <meta name="description" content="Redirecting to Google Translate with an optimized experience.">
+    <meta name="keywords" content="Google Translate, language translation, Translate.new">
     <meta name="robots" content="index, follow">
-    
-    <!-- SEO Canonical URL -->
     <link rel="canonical" href="https://translate.new">
 
     <!-- Title -->
-    <title>Redirect to Google Translate - Translate.new</title>
-
-    <!-- Google Tag Manager -->
-    <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TBCXZB2X');
-    </script>
-    <!-- End Google Tag Manager -->
+    <title>Redirecting to Google Translate...</title>
 
     <!-- Refresh Redirect -->
-    <meta http-equiv="refresh" content="5; url=https://translate.google.com">
+    <meta http-equiv="refresh" content="2; url=https://translate.google.com">
+
+    <!-- Skeleton Animation CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .skeleton-container {
+            width: 300px;
+            height: 150px;
+            background: linear-gradient(90deg, #e0e0e0 25%, #f4f4f4 50%, #e0e0e0 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s infinite;
+            border-radius: 8px;
+        }
+        @keyframes skeleton-loading {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBCXZB2X" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- Skeleton Loading Animation -->
+    <div class="skeleton-container"></div>
 
-    <h1>Redirecting to Google Translate...</h1>
-    <p>You will be redirected to <a href="https://translate.google.com">Google Translate</a> in 5 seconds.</p>
-    <p>If you are not redirected automatically, please click the link above.</p>
+    <!-- Optional Message for Fallback -->
+    <noscript>
+        <p style="text-align: center;">Redirecting to Google Translate. Please click <a href="https://translate.google.com">here</a> if not redirected automatically.</p>
+    </noscript>
 </body>
 </html>
